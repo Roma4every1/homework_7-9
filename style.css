@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+
+.comment-form {
+  width: 88.34%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background: #FBF7F6;
+  margin: 100px auto;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.comment-form-header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-bottom: 34px;
+}
+
+.comment-form-header-button {
+  width: calc(100%/3);
+  height: 100%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #371030;
+  border: 0;
+  background: #F9F0EE;
+}
+
+.comment-form-header-button:nth-child(1) {
+  border-radius: 15px 0px 0px 0px;
+  border-right: 1px solid #C4C4C4;
+
+}
+
+.comment-form-header-button:nth-child(3) {
+  border-radius: 0px 15px 0px 0px;
+  background: #FFB0BA;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #9A3C48;
+}
+
+.comment-form-title {
+  margin-left: 3.75%;
+  width: 96.25%;
+  height: 30px;
+  display: flex;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #371030;
+  margin-bottom: 25px;
+}
+
+.comment-form-content {
+  width: 92.5%;
+  height: 352px;
+  margin-left: 3.75%;
+  margin-right: 3.75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comment-form-content-review input {
+  width: 100%;
+  display: flex;
+  padding: 18px 0px 140px 25px;
+  border: 0;
+  font-family: 'Montserrat';
+  background: #F9F0EE;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: rgba(1, 1, 1, 0.5);
+}
+
+.comment-form-content-person {
+  width: 102%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-form-content-person input {
+  width: 30%;
+  display: flex;
+  padding: 5px 0px 5px 25px;
+  border: 0;
+  font-family: 'Montserrat';
+  background: #F9F0EE;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: rgba(1, 1, 1, 0.5);
+}
+
+.comment-form-content-send {
+  width: 102%;
+  display: flex;
+  align-items: center;
+}
+
+input[type="button"] {
+  width: 20%;
+  height: 63px;
+  border: 0;
+  border-radius: 100px;
+  background: #FFB0BA;
+  box-shadow: 3px 3px 0px 3px #DE8E98;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #9A3C48;
+  margin-right: 37px;
+  cursor: pointer;
+}
+
+#sendit {
+  margin-right: 15px;
+
+}
+
+.comment-form-label {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #606060;
+
+}
+
+.custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.custom-checkbox+label {
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.custom-checkbox+label::before {
+  content: '';
+  margin-right: 15px;
+  display: block;
+  width: 26px;
+  height: 23px;
+  background: #ffe6e6;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.custom-checkbox:checked+label::before {
+  content: '';
+  margin-right: 15px;
+  display: block;
+  width: 26px;
+  height: 23px;
+  background: #ffe6e6;
+  border-radius: 5px;
+  background-image: url("checkbox.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.order-section {
+  height: 965px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.order-section-title {
+  display: flex;
+  width: 50%;
+  height: 34px;
+  margin-bottom: 32px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #424242;
+
+}
+
+.order-text-input {
+  border: 1px solid #BDBDBD;
+  height: 50px;
+  border-radius: 83px;
+  background-color: rgba(1, 1, 1, 0.0);
+  padding-left: 3%;
+}
+
+.order-text-input::-webkit-input-placeholder {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #BDBDBD;
+}
+
+select {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #BDBDBD;
+
+}
+
+.order-section-address {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-section-person {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-section-pay {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-section-address-form {
+  width: 100%;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.order-section-person-form {
+  width: 100%;
+  height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.order-section-pay-form {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.address-city input {
+  width: 80%;
+  display: flex;
+}
+
+.address-mail select {
+  width: 100%;
+  display: flex;
+}
+
+.address-residency {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.address-residency input:nth-child(n+2) {
+  width: 14%;
+  display: flex;
+}
+
+.address-residency input:nth-child(1) {
+  width: 35%;
+  display: flex;
+}
+
+.address-comment input {
+  width: 96.5%;
+  display: flex;
+}
+
+.order-section-person-fio {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-section-person-fio input {
+  width: 28%;
+}
+
+.order-section-person-tel {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.order-section-person-tel input[type=text] {
+  width: 28%;
+}
+
+.order-section-person-tel input[type=email] {
+  width: 62%;
+}
+
+.order-section-pay-form {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.order-section-person-tel label {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 125%;
+  color: #424242;
+
+}
+
+.order-form-label {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #424242;
+}
+
+.order-section-pay-form label {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #424242;
+}
+
+.address-mail select {
+  width: 100%;
+  appearance: none;
+}
+
+.address-mail {
+  width: 83.5%;
+  position: relative;
+}
+
+.address-mail::before {
+  content: "";
+  right: 4%;
+  top: 40%;
+  width: 3%;
+  height: 10px;
+  background-image: url(arrow.svg);
+  background-position: center;
+  position: absolute;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.form-radio input[type=radio] {
+  display: none;
+}
+
+.form-radio label {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 40px;
+  margin-top: 20px;
+  line-height: 18px;
+}
+
+.form-radio label:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid brown;
+  border-radius: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: -4px;
+  background: rgba(1, 1, 1, 0.0);
+}
+
+.form-radio input[type=radio]:checked+label:before {
+  background: url(radio.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

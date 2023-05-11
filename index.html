@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ЗАДАНИЕ 2 -->
+  <div class="comment-form">
+    <div class="comment-form-header">
+      <button class="comment-form-header-button">Описание</button>
+      <button class="comment-form-header-button">Детали</button>
+      <button class="comment-form-header-button">Отзывы</button>
+    </div>
+    <div class="comment-form-title">
+      Оставьте свой отзыв на “Ароматическое саше”
+    </div>
+    <form action="" class="comment-form-content">
+      <div class="comment-form-content-review">
+        <input type="text" placeholder="Ваш отзыв*" />
+      </div>
+      <div class="comment-form-content-person">
+        <input type="text" placeholder="Имя*" />
+        <input type="tel" placeholder="Телефон*" /><input type="email" placeholder="Email*" />
+      </div>
+      <div class="comment-form-content-send">
+        <input type="button" value="Отправить" />
+        <input type="checkbox" class="custom-checkbox" id="sendit" checked />
+        <label for="sendit" class="comment-form-label">Сохранить моё имя, email и адрес сайта в этом браузере для
+          последующих моих комментариев.</label>
+      </div>
+    </form>
+  </div>
+    <!-- ЗАДАНИЕ 3 -->
+  <div class="order-section">
+    <div class="order-section-address">
+      <div class="order-section-title">Способ получения</div>
+      <form action="" class="order-section-address-form">
+        <div class="address-city">
+          <input type="text" class="order-text-input" placeholder="Город">
+        </div>
+        <div class="address-mail">
+          <select class="order-text-input" name="" id="">
+            <option value="">Почта России</option>
+            <option value="">Доставка курьером</option>
+          </select>
+        </div>
+        <div class="address-residency">
+          <input type="text" placeholder="Улица" class="order-text-input"><input type="text" placeholder="Дом"
+            class="order-text-input">
+          <input type="text" placeholder="Квартира" class="order-text-input"><input type="text" placeholder="Индекс"
+            class="order-text-input">
+        </div>
+        <div class="address-comment">
+          <input type="text" placeholder="Добавить комментарий" class="order-text-input">
+        </div>
+      </form>
+    </div>
+    <div class="order-section-person">
+      <div class="order-section-title">Данные получателя</div>
+      <form action="" class="order-section-person-form">
+        <div class="order-section-person-fio">
+          <input type="text" placeholder="Фамилия" class="order-text-input"><input type="text" placeholder="Имя"
+            class="order-text-input">
+          <input type="text" placeholder="Отчество" class="order-text-input">
+        </div>
+        <div class="order-section-person-tel">
+          <input type="text" id="tel" placeholder="Номер телефона" class="order-text-input">
+          <label for="tel">По этому номеру телефона мы с вяжемся с вами для подтверждения заказа</label>
+        </div>
+        <div class="order-section-person-tel">
+
+          <input type="email" id="email" placeholder="E-mail" class="order-text-input">
+          <label for="email">На эту почту вам придет письмо с составом заказа,
+            а так же трэк-номер для его отслеживания</label>
+        </div>
+        <div> <input type="checkbox" class="order-checkbox" id="sendit2" checked />
+          <label for="sendit2" class="order-form-label">Подписаться на рассылку новинок и акций</label>
+        </div>
+      </form>
+    </div>
+    <div class="order-section-pay">
+      <div class="order-section-title">Способ оплаты</div>
+      <form class="order-section-pay-form">
+        <div class="form-radio">
+          <input type="radio" name="payment" id="radiopay1">
+          <label for="radiopay1">Оплата при получении наличными или картой</label>
+        </div>
+        <div class="form-radio"><input type="radio" name="payment" id="radiopay2" checked>
+          <label for="radiopay2">Оплата банковской картой онлайн</label>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
