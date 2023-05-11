@@ -1,0 +1,117 @@
+.header-section {
+    width: auto;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    padding: 0px 170px 0px 115px;
+    align-items: center;
+}
+
+.header-section-logo {
+    display: flex;
+    justify-self: flex-start;
+}
+
+.header-section-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-section .header-section-menu {
+    width: 37.7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    justify-content: space-around;
+}
+
+.header-section-menu div {
+    color: #FFFFFF;
+}
+
+.social-section {
+    width: auto;
+    height: 140px;
+    display: flex;
+    background-color: #F8EFEF;
+    padding: 23px 170px;
+}
+
+.social-section-text {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social-section-header {
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.social-section-caption {
+    width: 100%;
+    height: auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.social-section-icons {
+    margin-left: 60px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: stretch
+}
+
+.social-section-icons img {
+    width: 100%;
+    max-height: 55px;
+}
+
+.footer-section {
+    height: 150px;
+    width: auto;
+    background-color: black;
+    padding: 27px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-section-icons {
+    margin-top: 25px;
+    margin-bottom: 32px;
+    display: flex;
+    width: 600px;
+    max-height: 42px;
+    justify-content: space-around;
+}
+
+.footer-section-icons img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-section-copy {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}

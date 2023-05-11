@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:ital@1&display=swap');
+
+.customers-section {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 170px 60px 170px;
+    width: auto;
+    height: auto;
+}
+
+.customers-section-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 210px;
+    margin-bottom: 80px;
+}
+
+.customers-section-header {
+    margin-top: 50px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+.customers-section-dash {
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    margin-bottom: 40px;
+}
+
+.customers-section-caption {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+}
+
+.customers-section-comments {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 336px;
+    width: auto;
+    justify-content: space-between;
+}
+
+.customers-section-comment {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+}
+
+.customers-section-comment-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    justify-content: center;
+}
+
+.customers-section-comment-text div {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    color: #86878B;
+
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0px 20px 20px 20px;
+}
+
+.customers-section-comment-text img {
+    display: flex;
+    width: 100%;
+}
+
+.customers-section-comment-person {
+    display: flex;
+    width: 100%;
+    height: 136px;
+    align-items: center;
+}
+
+.customers-section-comment-ava {
+    display: flex;
+    width: auto;
+    height: 70px;
+    border-radius: 50%;
+
+}
+
+.customers-section-comment-ava img {
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+.customers-section-comment-person-info {
+    margin-left: 30px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+
+}
+
+.customers-section-comment-name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.customers-section-comment-manager {
+    margin-top: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}

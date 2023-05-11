@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.template-section {
+    display: flex;
+    width: 100%;
+    height: 951px;
+    background-image: url(template-section-bg.png);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.template-section-overlay {
+    position: absolute;
+    width: 100%;
+    height: 951px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.template-section-text {
+    margin-left: 11.2%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    height: 558px;
+    justify-content: space-between;
+}
+
+.template-section-text-logo img {
+    width: 25%;
+}
+
+.template-section-text-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: white;
+}
+
+.template-section-text-dash {
+    width: 26%;
+    height: 1px;
+    background-color: white;
+}
+
+.template-section-text-capture {
+    width: 35%;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.template-section-text-button {
+    width: 40%;
+    height: 58px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+
+.template-section-login {
+    margin-right: 11.2%;
+    margin-top: -120px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 450px;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.template-section-login-title {
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.login-title-color {
+    color: #EC7979;
+}
+
+.template-section-login-forms {
+    height: 180px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    padding-bottom: 15px;
+    border: 0px;
+    border-bottom: 1px solid #BDBDBD;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+input::-webkit-input-placeholder {
+    color: #BDBDBD;
+}
+
+.template-section-login-button {
+    width: 100%;
+    height: 60px;
+    background: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    border: 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 622px;
+    margin: 50px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-section-header {
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-section-header-title {
+    margin-top: 50px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+.contact-section-header-dash {
+    width: 11.2%;
+    height: 1px;
+    background-color: #EC7979;
+}
+
+.contact-section-header-caption {
+    margin-top: -10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.contact-section-forms {
+    margin-top: 5%;
+    display: flex;
+    width: 77.48%;
+    height: 230px;
+    justify-content: space-between;
+}
+
+.contact-section-forms-login {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.contact-section-forms-message {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: 100%;
+}
+
+.contact-section-forms-message input {
+    padding-bottom: 209px;
+}
+
+.contact-section-button {
+    margin-top: 50px;
+    width: 24.5%;
+    height: 58px;
+    background: #EC7979;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+
+
